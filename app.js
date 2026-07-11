@@ -25,7 +25,8 @@ document.getElementById("homeScreen").style.display="none";
 
 document.getElementById("countriesPage").style.display="block";
 
-loadCountries();
+document.getElementById("countryList").innerHTML =
+"<h2 style='color:white'>TEST WORKING</h2>";
 
 });
 
