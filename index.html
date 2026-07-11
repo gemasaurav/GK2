@@ -67,14 +67,20 @@
 </div>
 <div id="countriesPage" style="display:none;">
 
-<h1>🌍 Countries</h1>
+    <h1>🌍 Countries</h1>
 
-<input
-type="text"
-id="searchCountry"
-placeholder="Search Country">
+    <select id="countrySelect">
+        <option value="">Select Country</option>
+    </select>
 
-<div id="countryList"></div>
+    <input
+    type="text"
+    id="searchCountry"
+    placeholder="Search Country">
+
+    <button id="goBtn">✈ GO</button>
+
+    <div id="countryList"></div>
 
 </div>
 <script src="data.js"></script>
