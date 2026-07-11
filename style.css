@@ -39,10 +39,24 @@ background:#0a4ea3;
 
 font-size:90px;
 
-animation:spin 4s linear infinite;
+animation:pulse 3s ease-in-out infinite;
 
 }
+@keyframes pulse{
 
+0%{
+transform:scaleX(1);
+}
+
+50%{
+transform:scaleX(0.7);
+}
+
+100%{
+transform:scaleX(1);
+}
+
+}
 @keyframes spin{
 
 from{
