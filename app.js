@@ -19,3 +19,39 @@ document.getElementById("indiaBtn").addEventListener("click",function(){
 alert("India Section Coming Next");
 
 });
+document.getElementById("countryBtn").addEventListener("click",function(){
+
+document.getElementById("homeScreen").style.display="none";
+
+document.getElementById("countriesPage").style.display="block";
+
+loadCountries();
+
+});
+
+function loadCountries(){
+
+let html="";
+
+countries.forEach(function(country){
+
+html += `
+<div class="countryCard">
+
+${country.flag}
+<br>
+
+<b>${country.name}</b>
+
+<br>
+
+Capital: ${country.capital}
+
+</div>
+`;
+
+});
+
+document.getElementById("countryList").innerHTML=html;
+
+}
