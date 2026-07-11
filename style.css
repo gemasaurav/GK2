@@ -103,23 +103,37 @@ margin-bottom:50px;
 
 button{
 
-width:280px;
+width:300px;
 
-height:90px;
+height:95px;
 
-margin:15px;
+margin:18px;
 
 border:none;
 
-border-radius:20px;
+border-radius:25px;
 
-font-size:22px;
+font-size:24px;
 
 font-weight:bold;
 
 color:white;
 
 cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+transform:translateY(-4px);
+
+}
+
+button:active{
+
+transform:translateY(2px);
 
 }
 
