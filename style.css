@@ -37,11 +37,7 @@ background:#0a4ea3;
 
 .globe{
 
-width:150px;
-
-height:150px;
-
-animation:spin 8s linear infinite;
+font-size:120px;
 
 }
 @keyframes pulse{
